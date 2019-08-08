@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import Display from './Display'
-
 const Dashboard = props => {
     const [strikes, setStrikes] = useState(0)
     const [balls, setBalls] = useState(0)
